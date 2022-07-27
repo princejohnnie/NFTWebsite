@@ -1,0 +1,1237 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:'poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    display: flex;  
+}
+body{
+    background-color:black;
+    color:white ;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+header .logohere{
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    margin-bottom: 10px; 
+    margin-left: 80px;
+    margin-top: 20px;
+}
+nav{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 15px;
+    display:flex;
+    color: #FFFFFF;
+    align-items: centre;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    left: 600px;
+    top: 29px;
+    height: 15px;
+    margin: auto; 
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    margin: 0 20px;    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    position: relative;
+    padding: 35px 0;      
+}
+ a:hover{
+    transition: 0.5s;
+    color: #0127af;
+ }
+        
+.thirdbutton{   
+    position: absolute;
+    width: 119px;
+    height: 51px;
+    left: 1060px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #2750E3;
+    border-radius:2px;
+    transition: 0.3s;
+}
+ .fourthbutton{
+    position: absolute;
+    width: 119px;
+    height: 51px;
+    left: 1200px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius:2px; 
+    transition: 0.3s;
+    box-shadow: -1px -1px 4px #FFFFFF, 1px 1px 4px #FFFFFF;
+ }  
+    .header-text{
+    padding: 70px;
+    left:50%;
+    right:50%;
+    text-align: justify;
+    margin: 60px 10px;
+}
+.header-text h1{
+    font-size:60px ;
+    font-weight: 700;
+    color: FFFFFF;
+    line-height: 73px;
+    font-style: normal;
+    font-family: 'Inter'; 
+}
+.header-text p{
+    font-size:14px;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    position: absolute;
+    width: 677px;
+    height: 34px;
+    left: 90px;
+}
+.firstbutton{
+    position: absolute;
+    width: 144px;
+    height: 47px;
+    left: 86px;
+    top: 413px;
+    background: #2750E3;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.firstbutton:hover{
+    box-shadow: blue;
+    cursor:pointer;
+    color:rgb(255, 192, 236);
+}
+.firstbutton:before{
+    transition: 0.5s;
+    position:absolute;
+    top: 0;
+    left:50%;
+    right:50%;
+    bottom:0;
+    background-color: aqua;   
+}
+.secondbutton{
+    box-sizing: border-box;
+    position: absolute;
+    width: 104px;
+    height: 47px;
+    left: 250px;
+    top: 413px;
+    background: #000000;
+    border: 6px solid #000000;
+    box-shadow: -1px -1px 4px #FFFFFF, 1px 1px 4px #FFFFFF;
+    border-radius: 6px;
+    color:white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;  
+}
+.secondbutton:hover{
+    box-shadow: whitesmoke;
+    cursor:pointer;
+    color:pink;
+}
+.firstbutton:before{
+    transition: 0.5s;
+    position:absolute;
+    top: 0;
+    left:50%;
+    right:50%;
+    bottom:0;
+    background-color: aqua;   
+}
+.explore{
+    position: absolute;
+    width: 197px;
+    height: 36px;
+    left: 87px;
+    top: 518px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.fifthbutton{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 1099px;
+    top: 515px;
+    background: rgb(41, 40, 40);
+    border: 6px solid rgb(41, 40, 40);
+    border-radius: none;
+    color:green;
+}
+.alphawallets1{
+    position:absolute;
+    top:668px;
+    left:101px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;    
+}
+.firstimage{
+    position: absolute;
+    left: 6.5%;
+    right: 0.6%;
+    top: 93%;
+    bottom: 18.34%;
+    height:17%;
+    background-color: rgb(41, 40, 40);
+    width: 120px;
+    object-fit: none;
+
+}
+.container2{
+    color: #FFFFFF;
+}
+.secondimage22{
+    position: absolute;
+    background-color:rgb(41, 40, 40);
+    width: 120px;
+    height: 17%;
+    left: 285px;
+    top: 93%;
+    object-fit: none;
+}   
+.alphawallets2{
+    position:absolute;
+    top:668px;
+    left:300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+.thirdimage33{
+    position: absolute;
+    background-color: rgb(41, 40, 40);
+    width: 120px;
+    height: 17%;
+    left: 487px;
+    top: 93%;
+    object-fit: none;
+}
+.alphawallets3{
+    position:absolute;
+    top:668px;
+    left:505px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+.fourthimage44{
+    position: absolute;
+    background-color:rgb(41, 40, 40);
+    width: 120px;
+    height: 17%;
+    left: 687px;
+    top: 93%;
+    object-fit: none;
+}
+.alphawallets4{
+    position:absolute;
+    top:668px;
+    left:705px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+.fifthimage55{
+    position: absolute;
+    background-color: rgb(41, 40, 40);
+    width: 120px;
+    height: 17%;
+    left: 885px;
+    top: 93%;
+    object-fit: none;
+}
+.alphawallets5{
+    position:absolute;
+    top:668px;
+    left:903px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+.sixthimage66{
+    position: absolute;
+    background-color: rgb(41, 40, 40);
+    width: 120px;
+    height: 17%;
+    left: 1082px;
+    top: 93%;
+    object-fit: none;
+}
+.alphawallets6{
+    position:absolute;
+    top:668px;
+    left:1105px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+ }
+.nftcategories{
+    position: absolute;
+    left: 6.5%;
+    right: 0.6%;
+    top: 115%;
+    line-height:36.1px;
+    width: 120px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    font-family:'Inter';
+   } 
+.firsttagrectangle{
+    position: absolute;
+    left: 84%;
+    right: 0.6%;
+    top: 115%;
+    background: grey;
+   }
+.firsttag{
+    position: absolute;
+    left: 85%;
+    right: 0.6%;
+    top: 116.3%;
+   }
+.secondtagrectangle{
+    position: absolute;
+    left: 87%;
+    right: 0.6%;
+    top: 115%;
+    background: rgba(34, 34, 34, 0.7);   
+}
+.secondtag{
+    position: absolute;
+    left: 88%;
+    right: 0.6%;
+    top: 116.3%;
+    transform: rotate(180deg);
+    color:grey;
+}
+.plainpink{
+    position: absolute;
+    width: 284px;
+    height: 255px;
+    left: 900px;
+    top: 115px;
+    background: #E224CF;
+    border-radius: 14px;
+    transform: rotate(-10deg);
+}
+.pinkimage{
+    position: absolute;
+    width: 328.11px;
+    height: 420px;
+    left: 880px;
+    top: 95px;
+    transform: rotate(7.96deg);
+}
+.seconddownimage{
+    position: absolute;
+    left: 395px;
+    top: 53%;
+    object-fit: none;
+    position: absolute;
+    width: 215px;
+    height: 1170px;
+   }
+.box{
+    box-sizing: border-box;
+    position: absolute;
+    width: 245px;
+    height: 380px;
+    left: 380px;
+    top: 765px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(118, 15, 15, 0.05) 100%);
+    border: 2px solid #390B0B;
+    backdrop-filter: blur(70px);
+    border-radius: 8px;
+   }
+.seconddownimagebutton{
+    position: absolute;
+    width: 56px;
+    height: 23px;
+    left: 550px;
+    top: 129%;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.63) 0%, rgba(217, 217, 217, 0.33) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+    object-fit: none;
+   }
+.heart1{
+    position: absolute;
+    border-radius: 0px;
+    width: 11px;
+    left: 592px;
+    top: 129.9%;
+    height:10px;
+   }
+.seconddownimagebutton2{
+    position: absolute;
+    width: 195px;
+    height: 55px;
+    left: 405px;
+    top: 157.6%;
+    box-sizing: border-box;
+    background-image: url("backgroundimage.png");
+    background-color:rgb(233, 229, 229);
+    opacity: 0.8;
+    border: 1px solid #FFFFFF;
+    border-radius: 13px;
+    background-color: white;
+    opacity: 0.75;
+   }
+.volume{
+    position: absolute;
+    width: 36px;
+    left: 417px;
+    top: 159%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.name{
+    position: absolute;
+    width: 36px;
+    left: 560px;
+    top: 159%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.diamond1{
+    position: absolute;
+    width: 9px;
+    left: 417px;
+    top: 162.7%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+}
+.sol{
+    position: absolute;
+    width: 50px;
+    left: 427px;
+    top: 162.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+}
+.bayc{
+    position: absolute;
+    width: 32px;
+    left: 560px;
+    top: 162.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+}
+.stockavailable{
+    position: absolute;
+    width: 117px;
+    left: 395px;
+    top: 170%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    height: 17px;
+}
+.bigheart{
+    position: absolute;
+    width: 18.56px;
+    left: 591px;
+    top: 170%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    height: 18.89px;   
+}
+.vigordance{
+    position: absolute;
+    width: 59px;
+    left: 405px;
+    top: 173.9%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+}
+.currentbid{
+    position: absolute;
+    width: 59px;
+    left: 549px;
+    top: 173.9%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+}
+.fancy_nft{
+    position: absolute;
+    width: 44px;
+    left: 405px;
+    top: 177.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+}
+.eth{
+    position: absolute;
+    width: 44px;
+    left: 549px;
+    top: 177.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+}
+.placebid{
+    position: absolute;
+    width: 185px;
+    height: 35px;
+    left: 405px;
+    top: 180%;
+    background: #2750E3;
+    color: #FFFFFF;
+}
+.arrow{
+    position: absolute;
+    width: 19.25px;
+    height: 12.38px;
+    left: 530px;
+    top: 181.8%;
+    color:white;
+}
+.box1{
+     box-sizing: border-box;
+     position: absolute;
+     width: 245px;
+     height: 380px;
+     left: 80px;
+     top: 765px;
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(118, 15, 15, 0.05) 100%);
+     border: 2px solid #390B0B;
+     backdrop-filter: blur(70px);
+     border-radius: 8px;
+       }
+.firstdownimage{
+     position: absolute;
+     left: 96.2px;
+     top: 53%;
+     object-fit: none;
+     position: absolute;
+     width: 215px;
+     height: 1170px;
+    }
+.firstdownimagebutton{
+     position: absolute;
+     width: 56px;
+     height: 23px;
+     left: 253px;
+     top: 129%;
+     box-sizing: border-box;
+     background: linear-gradient(180deg, rgba(255, 255, 255, 0.63) 0%, rgba(217, 217, 217, 0.33) 100%);
+     border: 1px solid #FFFFFF;
+     border-radius: 14px;
+     object-fit: none;
+}
+.heart2{
+        position: absolute;
+        border-radius: 0px;
+        width: 11px;
+        left: 293px;
+        top: 129.95%;
+        height:10px;
+}
+.firstdownimagebutton2{
+        position: absolute;
+        width: 195px;
+        height: 55px;
+        left: 109px;
+        top: 157.6%;
+        box-sizing: border-box;
+        background-image:url("backgroundimage.png");
+        border: 1px solid #FFFFFF;
+        border-radius: 13px;
+       background-color:rgb(233, 229, 229);
+       opacity: 0.8;
+}
+.volume1{
+        position: absolute;
+        width: 36px;
+        left: 120px;
+        top: 159%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 12px;
+        color: #FFFFFF;
+}
+.name1{
+    position: absolute;
+    width: 36px;
+    left: 263px;
+    top: 159%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.diamond2{
+    position: absolute;
+    width: 9px;
+    left: 120px;
+    top: 162.7%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+}
+.sol1{
+    position: absolute;
+    width: 50px;
+    left: 130px;
+    top: 162.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+}
+.bayc1{
+    position: absolute;
+    width: 32px;
+    left: 263px;
+    top: 162.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+}
+.stockavailable1{
+    position: absolute;
+    width: 117px;
+    left: 96.2px;
+    top: 170%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    height: 17px;
+}
+.bigheart1{
+    position: absolute;
+    width: 18.56px;
+    left: 294px;
+    top: 170%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    height: 18.89px;   
+}
+.vigordance1{
+    position: absolute;
+    width: 59px;
+    left: 107px;
+    top: 173.9%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+}
+.currentbid1{
+    position: absolute;
+    width: 59px;
+    left: 258px;
+    top: 173.9%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+}
+.fancy_nft1{
+    position: absolute;
+    width: 44px;
+    left: 107px;
+    top: 177.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+}
+.eth1{
+    position: absolute;
+    width: 44px;
+    left: 258px;
+    top: 177.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+}
+.placebid1{
+    position: absolute;
+    width: 185px;
+    height: 35px;
+    left: 100px;
+    top:180%;
+    background: #2750E3;
+    color: #FFFFFF;
+}
+.arrow1{
+    position: absolute;
+    width: 19.25px;
+    height: 12.38px;
+    left: 227px;
+    top: 181.8%;
+    color:white;
+}
+.box2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 245px;
+    height: 380px;
+    left: 680px;
+    top: 765px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(118, 15, 15, 0.05) 100%);
+    border: 2px solid #390B0B;
+    backdrop-filter: blur(70px);
+    border-radius: 8px;
+   }
+.thirddownimage{
+    position: absolute;
+    left: 695px;
+    top: 53%;
+    object-fit: none;
+    position: absolute;
+    width: 215px;
+    height: 1170px;
+   }
+.thirddownimagebutton{
+    position: absolute;
+    width: 56px;
+    height: 23px;
+    left: 852px;
+    top: 129%;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.63) 0%, rgba(217, 217, 217, 0.33) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+    object-fit: none;
+   }
+.heart3{
+    position: absolute;
+    border-radius: 0px;
+    width: 11px;
+    left: 894px;
+    top: 129.95%;
+    height:10px;
+}
+.thirddownimagebutton2{
+    position: absolute;
+    width: 195px;
+    height: 55px;
+    left: 707px;
+    top: 157.6%;
+    box-sizing: border-box;
+    background-image:url("backgroundimage.png");
+    border: 1px solid #FFFFFF;
+    border-radius: 13px;
+   background-color:rgb(233, 229, 229);
+   opacity: 0.8;
+}
+.volume2{
+    position: absolute;
+    width: 36px;
+    left: 718px;
+    top: 159%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.name2{
+    position: absolute;
+    width: 36px;
+    left: 864px;
+    top: 159%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.diamond3{
+    position: absolute;
+    width: 9px;
+    left: 718px;
+    top: 162.7%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+}
+.sol2{
+    position: absolute;
+    width: 50px;
+    left: 728px;
+    top: 162.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+}
+.bayc2{
+   position: absolute;
+   width: 32px;
+   left: 864px;
+   top: 162.5%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 15px;
+   height: 15px;
+}
+.stockavailable2{
+   position: absolute;
+   width: 117px;
+   left: 695px;
+   top: 170%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 15px;
+   height: 17px;
+}
+.bigheart2{
+   position: absolute;
+   width: 18.56px;
+   left: 895px;
+   top: 170%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 15px;
+   height: 18.89px;    
+}
+.vigordance2{
+   position: absolute;
+   width: 59px;
+   left: 707px;
+   top: 173.9%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 10px;
+   line-height: 12px;
+   height: 12px;
+}
+.currentbid2{
+   position: absolute;
+   width: 59px;
+   left: 857px;
+   top: 173.9%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 10px;
+   line-height: 12px;
+   height: 12px;
+}
+.fancy_nft2{
+   position: absolute;
+   width: 44px;
+   left: 707px;
+   top: 177.5%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 8px;
+   line-height: 10px;
+}
+.eth2{
+   position: absolute;
+   width: 44px;
+   left: 857px;
+   top: 177.5%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 8px;
+   line-height: 10px;
+
+}
+.placebid2{
+   position: absolute;
+   width: 185px;
+   height: 35px;
+   left: 707px;
+   top:180%;
+   background: #2750E3;
+   color: #FFFFFF;
+}
+.arrow2{
+    position: absolute;
+    width: 19.25px;
+    height: 12.38px;
+    left: 830px;
+    top: 181.8%;
+    color:white;
+}
+.box3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 245px;
+    height: 380px;
+    left: 965px;
+    top: 765px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(118, 15, 15, 0.05) 100%);
+    border: 2px solid #390B0B;
+    backdrop-filter: blur(70px);
+    border-radius: 8px;
+}
+.fourthdownimage22{
+    position: absolute;
+    left: 980px;
+    top: 53%;
+    object-fit: none;
+    position: absolute;
+    width: 215px;
+    height: 1170px;
+}
+.fourthdownimagebutton22{
+    position: absolute;
+    width: 56px;
+    height: 23px;
+    left: 1137px;
+    top: 129%;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.63) 0%, rgba(217, 217, 217, 0.33) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+    object-fit: none;
+ }
+.heart4{
+    position: absolute;
+    border-radius: 0px;
+    width: 11px;
+    left: 1177px;
+    top: 129.95%;
+    height:10px;
+}
+.fourthdownimagebutton222{
+    position: absolute;
+    width: 195px;
+    height: 55px;
+    left: 990px;
+    top: 157.6%;
+    box-sizing: border-box;
+    background-image:url("backgroundimage.png");
+    border: 1px solid #FFFFFF;
+    border-radius: 13px;
+   background-color:rgb(233, 229, 229);
+   opacity: 0.8;
+}
+ .volume3{
+    position: absolute;
+    width: 36px;
+    left: 997px;
+    top: 159%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.name3{
+    position: absolute;
+    width: 36px;
+    left: 1145px;
+    top: 159%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.diamond4{
+    position: absolute;
+    width: 9px;
+    left: 997px;
+    top: 162.7%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+}
+.sol3{
+    position: absolute;
+    width: 50px;
+    left: 1006px;
+    top: 162.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+}
+.bayc3{
+    position: absolute;
+    width: 32px;
+    left: 1145px;
+    top: 162.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+}
+.stockavailable3{
+    position: absolute;
+    width: 117px;
+    left: 980px;
+    top: 170%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    height: 17px;
+}
+.bigheart3{
+    position: absolute;
+    width: 18.56px;
+    left: 1179px;
+    top: 170%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    height: 18.89px;   
+}
+.vigordance3{
+    position: absolute;
+    width: 59px;
+    left: 990px;
+    top: 173.9%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+}
+.currentbid3{
+    position: absolute;
+    width: 59px;
+    left: 1143px;
+    top: 173.9%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+}
+.fancy_nft3{
+    position: absolute;
+    width: 44px;
+    left: 990px;
+    top: 177.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+}
+.eth3{
+    position: absolute;
+     width: 44px;
+    left: 1143px;
+    top: 177.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+}
+.placebid3{
+    position: absolute;
+    width: 185px;
+    height: 35px;
+    left: 990px;
+    top:180%;
+    background: #2750E3;
+    color: #FFFFFF;
+}
+.arrow3{
+    position: absolute;
+    width: 19.25px;
+    height: 12.38px;
+    left: 1117px;
+    top: 181.8%;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
